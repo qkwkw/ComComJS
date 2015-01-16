@@ -192,7 +192,7 @@ var COMCOM = {
 		}
 	},
 
-	// Begin acepting input. (like mouse and touch devices.)
+	// Begin accepting input. (like mouse and touch devices; pointer device.)
 	_acceptInput : function(){
 		window.addEventListener("click",function(){COMCOM._gotoNext()},true);
 		window.addEventListener("keydown",function(){ COMCOM._gotoNext();return false; },true);
